@@ -20,7 +20,7 @@ class TodoItem extends Component {
                     <div style={{color}}>{text}</div>
                 </div>
                 {
-                    checked && (<div className="check-mark">&#2713;</div>)
+                    checked && (<div className="check-mark">&#10004;</div>)
                 }
             </div>
         )
